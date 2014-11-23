@@ -133,8 +133,8 @@ message = gets.chomp
 - Let's create a simple calculator using the Ruby Math module.
 - First, write two `gets` statements that will take 2 numbers from our user.
 - Create a class called `Calculator` that will wrap all of our methods.
-- Create an `initializer` method that takes in the 2 numbers and sets them as class variables.
+- Create an `initializer` method that takes in the 2 numbers and sets them as instance variables.
 - Write at least 4 methods that perform different math operations and output the result using `puts`. You can reference them [here](http://www.ruby-doc.org/core-2.1.4/Math.html).
-- Create a simple `if else` statement that will choose which method to pick based on a third `gets` input.
 - Instantiate your class using each of these 4 methods.
-- Bonus: Create another method that uses one of the Math constants in your operation.
+- Bonus 1: Create a simple `if else` statement that will choose which method to pick based on a third `gets` input.
+- Bonus 2: Create another method that uses one of the Math constants in your operation.
