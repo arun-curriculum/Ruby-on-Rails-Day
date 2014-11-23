@@ -127,6 +127,8 @@ end
 
 ```
 message = gets.chomp
+
+num = gets.chomp.to_i
 ```
 
 ##In-Class Lab
