@@ -1,9 +1,28 @@
 #Intro to Ruby
 
+##Install Software
+
+####Install RVM
+
+`\curl -sSL https://get.rvm.io | bash -s stable`
+
+####Install Ruby
+
+`rvm install ruby --disable-binary`
+
+####Check Installation
+
+`ruby -v`
+
+####Install Rails
+
+`gem install rails`
+
+##The Ruby Language
+
 - To practice using Ruby we can use the Interactive Ruby (IRB) tool.
 - Everything is an object.
 - Everything that is manipulated is an object, and the results of those manipulations are objects.
-- To compare to JS, you have prototypes on objects, such as array functions like .map or .reduce that you can call on instances of array objects.
 - In Ruby everything is an object and you'll be able to use object methods on it all.
 
 Let's take a look at some examples:
@@ -45,7 +64,6 @@ Math.sqrt(9) #3.0
 ####Objects
 - Ruby is a proper object-oriented language.
 - "Classes" wrap methods that are related to that object.
-- Instead of prototypes in JS that relate to some object, we have classes that encapsulate methods.
 - Classes can also inherit from other classes - this is called extension. We will get to this later.
 
 ```
