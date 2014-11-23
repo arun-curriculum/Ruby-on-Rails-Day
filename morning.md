@@ -1,4 +1,4 @@
-#Intro to Ruby and Ruby on Rails
+#Intro to Ruby
 
 - To practice using Ruby we can use the Interactive Ruby (IRB) tool.
 - Everything is an object.
